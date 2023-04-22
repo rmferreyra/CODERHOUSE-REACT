@@ -1,0 +1,145 @@
+[
+    {
+        "id": 1,
+        "idCategoria": 1,
+        "nombre": "Alta Montaña",
+        "categoria": "Montaña",
+        "descripcion": "Tour por Alta Montaña con degustaciones varias",
+        "imagen": "/images/altaMontana.jpg",
+        "precio": 9500,
+        "stock": 10
+
+    },
+
+    {
+        "id": 2,
+        "idCategoria": 2,
+        "nombre": "Bodegas Valle de Uco",
+        "categoria": "Bodegas",
+        "descripcion": "Tour por Bodegas de Valle de Uco con degustación de vinos",
+        "imagen": "/images/valleDeUco.jpg",
+        "precio": 4500,
+        "stock": 10
+    
+    },
+
+    {
+        "id": 3,
+        "idCategoria": 2,
+        "nombre": "Bodegas Valle de Uco y Almuerzo",
+        "categoria": "Bodegas",
+        "descripcion": "Tour por Bodegas de Valle de Uco con almuerzo",
+        "imagen": "/images/valleDeUcoAlmuerzo.jpg",
+        "precio": 8500,
+        "stock": 10
+    
+    },
+
+    {
+        "id": 4,
+        "idCategoria": 2,
+        "nombre": "Bodegas Lujan",
+        "categoria": "Bodegas",
+        "descripcion": "Tour por Bodegas de Luján con degustación de vinos",
+        "imagen": "/images/lujan.jpg",
+        "precio": 3500,
+        "stock": 10
+    
+    },
+
+    {
+        "id": 5,
+        "idCategoria": 2,
+        "nombre": "Bodegas Lujan y Almuerzo",
+        "categoria": "Bodegas",
+        "descripcion": "Tour por Bodegas de Luján con almuerzo",
+        "imagen": "/images/lujanAlmuerzo.jpg",
+        "precio": 7500,
+        "stock": 10
+    
+    },
+
+    {
+        "id": 6,
+        "idCategoria": 2,
+        "nombre": "Bodegas Este",
+        "Categoria": "Bodegas",
+        "descripcion": "Tour por Bodegas del Este con degustación de vinos",
+        "imagen": "/images/este.jpg",
+        "precio": 2500,
+        "stock": 10
+    
+    },
+
+    {
+        "id": 7,
+        "idCategoria": 2,
+        "nombre": "Bodegas Este y Almuerzo",
+        "categoria": "Bodegas",
+        "descripcion": "Tour por Bodegas del Este con almuerzo",
+        "imagen": "/images/esteAlmuerzo.jpg",
+        "precio": 6500,
+        "stock": 10
+    
+    },
+
+    {
+        "id": 8,
+        "idCategoria": 3,
+        "nombre": "City Tour Mendoza",
+        "categoria": "CityTour",
+        "descripcion": "City Tour por Mendoza",
+        "imagen": "/images/mendoza.jpg",
+        "precio": 5500,
+        "stock": 10
+    
+    },
+
+    {
+        "id": 9,
+        "idCategoria": 3,
+        "nombre": "City Tour Mendoza y Almuerzo",
+        "categoria": "CityTour",
+        "descripcion": "City Tour por Mendoza con almuerzo",
+        "imagen": "/images/mendozaAlmuerzo.jpg",
+        "precio": 9500,
+        "stock": 10
+    
+    },
+
+    {
+        "id": 10,
+        "idCategoria": 3,
+        "nombre": "Paseo En Globo",
+        "categoria": "CityTour",
+        "descripcion": "Paseo en Globo durante el amanecer mendocino",
+        "imagen": "/images/globos.jpg",
+        "precio": 10000,
+        "stock": 10
+    
+    },
+
+    {
+        "id": 11,
+        "idCategoria": 1,
+        "nombre": "San Rafael Rafting",
+        "categoria": "Montaña",
+        "descripcion": "Turismo Aventura en el sur mendocino",
+        "imagen": "./images/sanRafaelRafting.jpg",
+        "precio": 75000,
+        "stock": 10
+    
+    },
+
+    {
+        "id": 12,   
+        "idCategoria": 1,
+        "nombre": "Bike & Tasting",
+        "categoria": "Montaña",
+        "descripcion": "Paseo en bici entre viñedos y degustaciones varias",
+        "imagen": "./images/bikeTasting.jpg",
+        "precio": 5000,
+        "stock": 10
+
+    }
+]

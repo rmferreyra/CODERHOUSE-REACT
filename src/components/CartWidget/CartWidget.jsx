@@ -1,12 +1,12 @@
+import './CartWidget.css'
 import cart from './assets/suitcase-svgrepo-com.svg'
 
-const CartWidget = () => {
+export const CartWidget = ({ cantCarrito }) => {
     return (
-        <div>
-            <img src={cart} alt="cart-widget" />
-            0
-        </div>
+      <>
+        <img src={cart} alt="cart-wdi" />
+        <button className="btn btn-dark"><i className="fas fa-shopping-cart fa-lg"></i></button>
+        <p>{cantCarrito}</p>
+      </>
     )
-}
-
-export default CartWidget
+  }
