@@ -3,7 +3,6 @@ import { useCount } from '../../hooks/useCount.js'
 export const ItemCount = ({ ValInicial, min, max, onAdd }) => {
 
     const { count, minus, sum, reset } = useCount(ValInicial, min, max)
-  
     return (
       <>
         <button className="btn btn-dark" onClick={minus}>-</button>

@@ -1,21 +1,22 @@
 import { ItemCount } from '../ItemCount/ItemCount'
+import { useCarritoContext } from "../../context/CartContext"
 
 export const ItemDetail = ({ item }) => {
+    const { addItem } = useCarritoContext()
 
-    const onAdd = (contador) => { 
-        console.log(contador)
-        console.log(item)
+    const onAdd = (contador) => {
+        addItem(item, contador)
     }
 
     return (
         <div className="row g-0">
             <div className="col-md-4">
-                <img src={item.imagen} alt={`Imagen de ${item.nombre}`} className="img-fluid rounded-start" />
+                <img src={item.img} alt={`Imagen de ${item.nombre}`} className="img-fluid rounded-start" />
             </div>
             <div className="col-md-8">
                 <div className="card-body">
                     <h5 className="card-title">{item.nombre}</h5>
-                    <p className="card-text">Nombre: {item.nombre}</p>
+                    <p className="card-text">Categoria: {item.categoria}</p>
                     <p className="card-text">Descripcion: {item.descripcion}</p>
                     <p className="card-text">Precio: ${item.precio}</p>
                     <p className="card-text">Stock: {item.stock}</p>

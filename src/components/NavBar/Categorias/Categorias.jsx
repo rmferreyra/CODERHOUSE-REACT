@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
+import { memo } from "react";
 
-export const Categorias = () => {
+export const Categorias = memo (() => {
     return (
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
@@ -35,4 +36,4 @@ export const Categorias = () => {
 
         </ul>
     );
-}
+})

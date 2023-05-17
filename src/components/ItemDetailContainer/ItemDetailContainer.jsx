@@ -2,20 +2,16 @@ import './ItemDetailContainer.css';
 import { useState, useEffect } from 'react'
 import { ItemDetail } from '../ItemDetail/ItemDetail'
 import { useParams } from 'react-router-dom';
+import { getProduct } from "../../firebase/firebase.js"
 
 export const ItemDetailContainer = () => {
 
     const [item, setItem] = useState([])
+
     const { id } = useParams()
 
     useEffect(() => {
-        fetch('../json/productos.json')
-            .then(response => response.json())
-            .then(productos => {
-                const producto = productos.find(producto => producto.id === parseInt(id))
-                setItem(producto)
-            })
-
+        getProduct(id).then(prod => setItem(prod))
     }, [])
 
     return (

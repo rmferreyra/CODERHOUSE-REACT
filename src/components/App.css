@@ -1,5 +1,18 @@
 .divInicial {
-    background-color: aqua;
+    background-color: blue;
+}
+
+.cardBody {
+    background-color: white;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 2%;
+}
+
+.cardBodyDark {
+    background-color: lightblue;
+    margin-bottom: 5px;
+    text-align: center;
 }
 
 .itemDetail {
@@ -7,10 +20,19 @@
     margin-top: 10px;
 }
 
-.divForm {
-    margin-top: 20px;
+.cardCart {
+    max-width: 640px;
 }
 
-.body {
-    display: grid;
+.cantCarrito {
+    position: relative;
+    left: 25%;
+}
+
+.cartContainer {
+    margin-top: 5%;
+}
+
+.divForm {
+    margin-top: 20px;
 }

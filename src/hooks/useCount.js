@@ -1,7 +1,6 @@
 import { useState } from "react"
 
 export const useCount = (valInicial = 1, min, max) => { 
-
     if (valInicial < min || valInicial > max) { 
         valInicial = min
     }
@@ -13,6 +12,5 @@ export const useCount = (valInicial = 1, min, max) => {
     const minus = () => count > min && setCount(count - 1)
 
     const reset = () => setCount(valInicial) 
-
     return { count, sum, minus, reset }
 }

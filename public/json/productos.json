@@ -5,7 +5,7 @@
         "nombre": "Alta Montaña",
         "categoria": "Montaña",
         "descripcion": "Tour por Alta Montaña con degustaciones varias",
-        "imagen": "/images/altaMontana.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/react-2023-ee577.appspot.com/o/altaMontana.jpg?alt=media&token=6aa8a30f-e88b-4571-bff7-071992442045",
         "precio": 9500,
         "stock": 10
 
@@ -17,7 +17,7 @@
         "nombre": "Bodegas Valle de Uco",
         "categoria": "Bodegas",
         "descripcion": "Tour por Bodegas de Valle de Uco con degustación de vinos",
-        "imagen": "/images/valleDeUco.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/react-2023-ee577.appspot.com/o/valleDeUco.jpg?alt=media&token=57838ecb-d447-4bbc-a829-211f8a5eb164",
         "precio": 4500,
         "stock": 10
     
@@ -29,7 +29,7 @@
         "nombre": "Bodegas Valle de Uco y Almuerzo",
         "categoria": "Bodegas",
         "descripcion": "Tour por Bodegas de Valle de Uco con almuerzo",
-        "imagen": "/images/valleDeUcoAlmuerzo.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/react-2023-ee577.appspot.com/o/valleDeUcoAlmuerzo.jpg?alt=media&token=624dd1de-5f08-4c7e-980e-c4be38ba59b6",
         "precio": 8500,
         "stock": 10
     
@@ -41,7 +41,7 @@
         "nombre": "Bodegas Lujan",
         "categoria": "Bodegas",
         "descripcion": "Tour por Bodegas de Luján con degustación de vinos",
-        "imagen": "/images/lujan.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/react-2023-ee577.appspot.com/o/lujan.jpg?alt=media&token=2544aeb0-d231-456c-911c-30b878ac28c6",
         "precio": 3500,
         "stock": 10
     
@@ -53,7 +53,7 @@
         "nombre": "Bodegas Lujan y Almuerzo",
         "categoria": "Bodegas",
         "descripcion": "Tour por Bodegas de Luján con almuerzo",
-        "imagen": "/images/lujanAlmuerzo.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/react-2023-ee577.appspot.com/o/lujanAlmuerzo.jpg?alt=media&token=aecc3446-299e-4208-b959-cd65f336f568",
         "precio": 7500,
         "stock": 10
     
@@ -65,7 +65,7 @@
         "nombre": "Bodegas Este",
         "Categoria": "Bodegas",
         "descripcion": "Tour por Bodegas del Este con degustación de vinos",
-        "imagen": "/images/este.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/react-2023-ee577.appspot.com/o/este.jpg?alt=media&token=fd1e7673-5aff-4840-a121-eebf813cbf99",
         "precio": 2500,
         "stock": 10
     
@@ -77,7 +77,7 @@
         "nombre": "Bodegas Este y Almuerzo",
         "categoria": "Bodegas",
         "descripcion": "Tour por Bodegas del Este con almuerzo",
-        "imagen": "/images/esteAlmuerzo.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/react-2023-ee577.appspot.com/o/esteAlmuerzo.jpg?alt=media&token=beb1ba34-193b-4806-a35e-1751bd01cd18",
         "precio": 6500,
         "stock": 10
     
@@ -89,7 +89,7 @@
         "nombre": "City Tour Mendoza",
         "categoria": "CityTour",
         "descripcion": "City Tour por Mendoza",
-        "imagen": "/images/mendoza.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/react-2023-ee577.appspot.com/o/mendoza.jpg?alt=media&token=150d526c-9a8d-471f-b656-ca41e69e9396",
         "precio": 5500,
         "stock": 10
     
@@ -101,7 +101,7 @@
         "nombre": "City Tour Mendoza y Almuerzo",
         "categoria": "CityTour",
         "descripcion": "City Tour por Mendoza con almuerzo",
-        "imagen": "/images/mendozaAlmuerzo.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/react-2023-ee577.appspot.com/o/mendozaAlmuerzo.jpg?alt=media&token=901d11a4-84a7-4d97-859a-5d3e3c0c819b",
         "precio": 9500,
         "stock": 10
     
@@ -113,7 +113,7 @@
         "nombre": "Paseo En Globo",
         "categoria": "CityTour",
         "descripcion": "Paseo en Globo durante el amanecer mendocino",
-        "imagen": "/images/globos.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/react-2023-ee577.appspot.com/o/globos.jpg?alt=media&token=a39ebc05-aba0-4ec4-8121-dc31241714c0",
         "precio": 10000,
         "stock": 10
     
@@ -125,7 +125,7 @@
         "nombre": "San Rafael Rafting",
         "categoria": "Montaña",
         "descripcion": "Turismo Aventura en el sur mendocino",
-        "imagen": "./images/sanRafaelRafting.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/react-2023-ee577.appspot.com/o/sanRafaelRafting.jpg?alt=media&token=3e0b85e1-04dd-49b2-86e4-840877406fff",
         "precio": 75000,
         "stock": 10
     
@@ -137,7 +137,7 @@
         "nombre": "Bike & Tasting",
         "categoria": "Montaña",
         "descripcion": "Paseo en bici entre viñedos y degustaciones varias",
-        "imagen": "./images/bikeTasting.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/react-2023-ee577.appspot.com/o/bikeTasting.jpg?alt=media&token=e3175436-7afb-432f-bd3c-2da61d8c0d27",
         "precio": 5000,
         "stock": 10
 
